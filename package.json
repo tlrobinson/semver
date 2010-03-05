@@ -1,0 +1,7 @@
+{
+    "name": "semver",
+    "author": "Tom Robinson (http://tlrobinson.net/) <tom@280north.com>",
+    "description": "Tools for managing CommonJS packages following the Semantic Versioning specificiations",
+    "keywords": ["semver", "semantic versioning", "commonjs", "packaging"],
+    "version": "0"
+}

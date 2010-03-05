@@ -1,0 +1,19 @@
+#!/usr/bin/env narwhal
+
+var JAKE = require("jake");
+var SEMVERJAKE = require("semver/jake");
+
+
+exports.main = function(args) {
+    var app = JAKE.application();
+    
+    app.init({ appName : "semver", args : args });
+    
+    // FIXME: refactor Jake
+    SEMVERJAKE.init(JAKE);
+    
+    app.topLevel();
+}
+
+if (require.main === module)
+    exports.main(require("system").args);
