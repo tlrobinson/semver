@@ -8,6 +8,8 @@
         "commonjs",
         "packaging"
     ],
-    "dependencies": ["jake"],
-    "version": "0"
+    "dependencies": [
+        "jake"
+    ],
+    "version": "0.0.1"
 }
